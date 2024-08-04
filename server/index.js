@@ -14,6 +14,9 @@ app.get('/test',(req,res)=>{
     console.log('1');
 });
 
+app.get('/',(req,res)=>{
+    res.json('** Welcome!!!! **'); 
+});
 
 
 app.listen(4040);
